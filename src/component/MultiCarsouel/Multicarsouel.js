@@ -41,7 +41,7 @@ export default function MultiCarsouel() {
     const getData = async () => {
       try {
         let response = await fetch(
-            "http://localhost:9007/api/BeneficiaryUser/v1/TrendingList",
+            "http://beneficiaryservice-env.eba-5dav2fqf.us-east-1.elasticbeanstalk.com/api/BeneficiaryUser/v1/TrendingList",
             // sessionStorage.getItem("customerId"),
           {
             method: "GET",
@@ -49,7 +49,7 @@ export default function MultiCarsouel() {
             headers: {
               "Content-Type": "application/json",
               Accept: "application/json",
-              'Access-Control-Allow-Origin' : 'http://localhost:9007/'
+              'Access-Control-Allow-Origin' : 'http://beneficiaryservice-env.eba-5dav2fqf.us-east-1.elasticbeanstalk.com/'
             },
           }
         );
