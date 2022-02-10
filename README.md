@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped basically clone of Millap Application This is fully based on react application and SpringBoot.
 
 ## Available Scripts
 
